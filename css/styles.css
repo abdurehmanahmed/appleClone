@@ -1,41 +1,72 @@
+/* General Styling*/
 
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
 a {
   color: #06c;
 }
 img {
   max-width: 100%;
 }
-
-
-/* my work */
-
-.cta-links-container a:hover {
-  color: #978f8f;
+.white {
+  color: #fff;
+}
+.black {
+  color: #1d1d1f;
+}
+.grey {
+  color: #86868b;
+}
+.top-50 {
+  margin-top: 50px;
+}
+.top-100 {
+  margin-top: 100px;
 }
 
-
-/* fourth section */
-/* the three rows */
-/* common properties */
-.common-for-RandL {
-  height: 600px;
-  background-position: center;
-  background-size: cover;
-  text-align: center;
+.bgimg7 {
+  background-image: url(../images/home/macbook-pro.jpg);
+  height: 580px;
+  /* background-size: ; */
+  background-color: hsl(0, 0%, 98%);
+  background-position: bottom;
   background-repeat: no-repeat;
-  width: 750px;
 }
 
-/* first-row */
-.first-row .first-row-left {
-  background-image: url("../images/home/watch-series-5.jpg");
-}
-.first-row .first-row-right {
-  background-image: url("../images/home/apple-card.jpg");
+.bgimg8 {
+  background-image: url(../images/home/new-ipad.jpg);
+  height: 580px;
+  background-position: center;
+
+  background-size: cover;
 }
 
-.product-description {
-  max-width: 330px;
+.titlemac {
+  font-weight: bolder;
+  font-size: 60px;
+}
+.bestdescription {
+  font-size: 2em;
+}
+
+.iphone {
+  font-weight: 500px;
+  font-size: 56px;
+}
+.just {
+  font-size: 23px;
+}
+.just1 {
+  font-size: 29px;
+}
+
+.servant {
+  padding: 119px 0 190px;
 }
 
 
