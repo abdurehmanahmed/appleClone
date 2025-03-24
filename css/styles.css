@@ -53,7 +53,6 @@ img {
   color: #978f8f;
 }
 
-/* 
 .highlight-second-section {
   background-image: url("../images/home/iphone11-pro-bg.jpg");
   height: 580px;
@@ -66,44 +65,14 @@ img {
 }
 .product-price {
   color: #bebec1;
-} */
-/* Third Highlight Section
+}
+/* Third Highlight Section */
 .highlight-third-section {
   background-image: url("../images/home/iphone11-bg.jpg");
   height: 580px;
   background-position: center;
   background-size: cover;
-} */
-
-/* >>>>>>section two and three start */
-
-/* section-two */
-.bgimg1 {
-  background-image: url(../images/home/iphone11-pro-bg.jpg);
-  height: 580px;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
-
-/* section-three */
-.bgimg2 {
-  background-image: url(../images/home/iphone11-bg.jpg);
-  background-position: center;
-  background-size: cover;
-  height: 580px;
-}
-
-/* for both section one and two */
-.iphone {
-  font-weight: 50px;
-  font-size: 56px;
-}
-
-.just {
-  font-size: 23px;
-}
-/* >>>>>>>>section 2 & 3 end */
 
 /* fourth section */
 /* the three rows */
