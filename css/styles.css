@@ -1,9 +1,9 @@
-/* General Styling*/
-
+/* General Styling */
 * {
   margin: 0;
-  padding: 0;
+  padding: 0; /* From Zamzam */
 }
+
 body {
   font-family: "Montserrat", sans-serif;
 }
@@ -29,23 +29,114 @@ img {
   margin-top: 100px;
 }
 
+/* Header Style */
+.nav-wrapper {
+  background: rgba(0, 0, 0, 0.8);
+  font-size: 0.85em;
+  font-weight: 200;
+}
+.nav-wrapper ul li a {
+  color: #fff;
+}
+.navbar-toggler {
+  color: #fff;
+}
+.nav-item {
+  text-align: left !important;
+  padding: 4px 0;
+  border-bottom: 1px solid #4b4b4b;
+}
+
+/* My Work */
+.cta-links-container a:hover {
+  color: #978f8f;
+}
+
+/* Background Images from Zamzam */
 .bgimg7 {
   background-image: url(../images/home/macbook-pro.jpg);
+}
+
+.bgimg8 {
+  background-image: url(../images/home/new-ipad.jpg);
+}
+
+/* Second Highlight Section */
+.highlight-second-section {
+  background-image: url("../images/home/iphone11-pro-bg.jpg"); /* From main */
   height: 580px;
-  /* background-size: ; */
   background-color: hsl(0, 0%, 98%);
   background-position: bottom;
   background-repeat: no-repeat;
 }
 
-.bgimg8 {
-  background-image: url(../images/home/new-ipad.jpg);
+/* Third Highlight Section */
+.highlight-third-section {
+  background-image: url("../images/home/iphone11-bg.jpg"); /* From main */
   height: 580px;
   background-position: center;
-
   background-size: cover;
 }
 
+/* Fourth Section */
+/* The Three Rows */
+/* Common Properties */
+.common-for-RandL {
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+}
+
+/* First Row */
+.first-row .first-row-left {
+  background-image: url("../images/home/watch-series-5.jpg"); /* From main */
+}
+
+/* Second Row */
+.second-row .second-row-left {
+  background-image: url("../images/home/apple-tv-background.jpg");
+}
+.second-row .second-row-right {
+  background-image: url("../images/home/air-pods.jpg");
+  color: #fff;
+  background-size: initial;
+  background-color: #000;
+  background-position: bottom;
+}
+.second-row-right .cta-links-container a:hover {
+  color: #fff;
+}
+.tv-show-logo-container {
+  margin-top: 190px;
+}
+.watch-more-container {
+  padding: 180px 0 200px; /* From main, adjusted from Zamzam's .servant */
+}
+.watch-more-container a {
+  color: rgb(151, 76, 221);
+}
+.watch-more-container a:after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f144";
+  padding-left: 15px;
+}
+
+/* Third Row */
+/* Third Row Left */
+.third-row .third-row-left {
+  background-image: url("../images/home/macbook-pro.jpg");
+  background-size: initial;
+  background-color: #fafafa;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+/* Third Row Right */
+.third-row .third-row-right {
+  background-image: url("../images/home/new-ipad.jpg");
+}
+
+/* Zamzam Classes */
 .titlemac {
   font-weight: bolder;
   font-size: 60px;
@@ -53,9 +144,8 @@ img {
 .bestdescription {
   font-size: 2em;
 }
-
 .iphone {
-  font-weight: 500px;
+  font-weight: 500; /* Corrected from 500px, assuming intent was weight */
   font-size: 56px;
 }
 .just {
@@ -64,9 +154,102 @@ img {
 .just1 {
   font-size: 29px;
 }
-
 .servant {
   padding: 119px 0 190px;
 }
 
+/* Main Classes */
+.product-description {
+  max-width: 330px;
+}
 
+/* Footer Styling */
+.footer-wrapper {
+  background-color: #f5f5f7;
+  color: #86868b;
+  font-size: 0.7em;
+  margin-top: 50px;
+}
+.footer-wrapper ul {
+  list-style: none;
+  padding-bottom: 10px;
+  padding-inline-start: 0px;
+}
+.footer-wrapper ul a {
+  color: #515154;
+}
+.my-apple-wrapper {
+  padding-bottom: 15px;
+  margin-top: 10px;
+}
+.copyright {
+  margin-top: 15px;
+}
+.footer-country {
+  margin-top: 8px;
+}
+.flag-wrapper {
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 5px;
+}
+.footer-country-name {
+  display: inline-block;
+  vertical-align: middle;
+}
+.footer-links-terms ul {
+  display: flex;
+}
+.footer-links-terms ul li {
+  padding: 0 10px;
+  border-right: 1px solid #d2d2d7;
+}
+.footer-links-terms ul li:first-child {
+  padding-left: 0;
+}
+.footer-links-terms ul li:last-child {
+  border-right: 0;
+}
+
+/* Media Query */
+/* Footer */
+@media (max-width: 768px) {
+  .footer-links-wrapper ul {
+    display: none;
+  }
+  .footer-links-wrapper h3 {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  .footer-links-wrapper h3:after {
+    font-family: "FontAwesome";
+    content: "\f067";
+    padding-left: 10px;
+    position: absolute;
+    right: 25px;
+  }
+}
+@media (min-width: 768px) {
+  /* Nav Bar */
+  .nav-item {
+    text-align: center !important;
+    padding: 0;
+    border-bottom: 0px;
+  }
+  /* Footer Styling */
+  .my-apple-wrapper {
+    border-bottom: 1px solid #d2d2d7;
+  }
+}
+@media (min-width: 992px) {
+  /* Footer Styling */
+  .copyright {
+    margin-top: 10px;
+  }
+  .footer-country {
+    margin-top: 10px;
+  }
+  .footer-links-terms {
+    margin-top: 10px;
+  }
+}
