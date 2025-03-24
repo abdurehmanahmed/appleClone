@@ -35,8 +35,13 @@
   text-decoration: none;
   color: #06c;
 }
+
+.watch-more-container a {
+  color: rgb(151, 76, 221);
+=======
 .first-links-wrapper ul li a:hover {
   color: rgb(162, 172, 172);
+
 }
 .first-links-wrapper ul li a::after {
   font-family: "FontAwesome";
