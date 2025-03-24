@@ -1,41 +1,18 @@
 
-a {
-  color: #06c;
-}
-img {
-  max-width: 100%;
-}
 
 
-/* my work */
 
-.cta-links-container a:hover {
-  color: #978f8f;
-}
-
-
-/* fourth section */
-/* the three rows */
-/* common properties */
-.common-for-RandL {
-  height: 600px;
-  background-position: center;
-  background-size: cover;
-  text-align: center;
+.bgimg7 {
+  background-image: url(../images/home/macbook-pro.jpg);
+  height: 580px;
+  /* background-size: ; */
+  background-color: hsl(0, 0%, 98%);
+  background-position: bottom;
   background-repeat: no-repeat;
-  width: 750px;
 }
 
-/* first-row */
-.first-row .first-row-left {
-  background-image: url("../images/home/watch-series-5.jpg");
-}
-.first-row .first-row-right {
-  background-image: url("../images/home/apple-card.jpg");
-}
-
-.product-description {
-  max-width: 330px;
-}
-
+.bgimg8 {
+  background-image: url(../images/home/new-ipad.jpg);
+  height: 580px;
+  background-position: center;
 
