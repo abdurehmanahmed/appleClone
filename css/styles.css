@@ -1,33 +1,6 @@
-/* General Styling*/
 
-* {
-  margin: 0;
-  padding: 0;
-}
-body {
-  font-family: "Montserrat", sans-serif;
-}
-a {
-  color: #06c;
-}
-img {
-  max-width: 100%;
-}
-.white {
-  color: #fff;
-}
-.black {
-  color: #1d1d1f;
-}
-.grey {
-  color: #86868b;
-}
-.top-50 {
-  margin-top: 50px;
-}
-.top-100 {
-  margin-top: 100px;
-}
+
+
 
 .bgimg7 {
   background-image: url(../images/home/macbook-pro.jpg);
@@ -42,31 +15,4 @@ img {
   background-image: url(../images/home/new-ipad.jpg);
   height: 580px;
   background-position: center;
-
-  background-size: cover;
-}
-
-.titlemac {
-  font-weight: bolder;
-  font-size: 60px;
-}
-.bestdescription {
-  font-size: 2em;
-}
-
-.iphone {
-  font-weight: 500px;
-  font-size: 56px;
-}
-.just {
-  font-size: 23px;
-}
-.just1 {
-  font-size: 29px;
-}
-
-.servant {
-  padding: 119px 0 190px;
-}
-
 
