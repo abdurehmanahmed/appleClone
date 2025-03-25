@@ -36,6 +36,9 @@ img {
   font-weight: 200;
 }
 .nav-wrapper ul li a {
+  color: #b4abab;
+}
+.nav-wrapper ul li a:hover{
   color: #fff;
 }
 .navbar-toggler {
