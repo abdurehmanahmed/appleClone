@@ -1,8 +1,9 @@
-<<<<<<< HEAD
-.fifth-wrapper .left-side-wrapper{
-  background-image: url(../images/home/apple-tv-background.jpg);
-=======
 /* General Styling */
+* {
+  margin: 0;
+  padding: 0; /* From Zamzam via main */
+}
+
 body {
   font-family: "Montserrat", sans-serif;
 }
@@ -17,12 +18,6 @@ img {
 }
 .black {
   color: #1d1d1f;
-}
-.product-model {
-  font-size: 0.85em;
-}
-.product-name {
-  font-size: 56px;
 }
 .grey {
   color: #86868b;
@@ -57,18 +52,21 @@ img {
   color: #978f8f;
 }
 
+/* Background Images from Zamzam */
+.bgimg7 {
+  background-image: url(../images/home/macbook-pro.jpg);
+}
+.bgimg8 {
+  background-image: url(../images/home/new-ipad.jpg);
+}
+
+/* Second Highlight Section */
 .highlight-second-section {
   background-image: url("../images/home/iphone11-pro-bg.jpg");
   height: 580px;
-  background-position: center;
+  background-color: hsl(0, 0%, 98%);
+  background-position: bottom;
   background-repeat: no-repeat;
-  background-size: cover;
-}
-.product-title {
-  font-size: 50px;
-}
-.product-price {
-  color: #bebec1;
 }
 
 /* Third Highlight Section */
@@ -83,39 +81,15 @@ img {
 /* The Three Rows */
 /* Common Properties */
 .common-for-RandL {
->>>>>>> 9dc187b13b016577ab1904a584fa28d7151fef05
   height: 600px;
   background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
+  background-repeat: no-repeat; /* From section5 */
 }
-<<<<<<< HEAD
-.tvshow-logo-wraper {
-  padding-top: 240px;
-=======
 
 /* First Row */
 .first-row .first-row-left {
-  background-image: url("../images/home/watch-series-5.jpg");
->>>>>>> 9dc187b13b016577ab1904a584fa28d7151fef05
-}
-.Watch-wrapper{
-  padding-top: 180px;
-}
-<<<<<<< HEAD
-.fifth-wrapper .right-side-wrapper{
-  background-image: url(../images/home/air-pods.jpg);
-  height: 600px;
-  background-position: bottom;
-  background-repeat: no-repeat;
-  background-size: initial;
-  background-color: black;
-  color: white;
-}
-=======
-
-.product-description {
-  max-width: 330px;
+  background-image: url("../images/home/watch-series-5.jpg"); /* From 9dc187b1 */
 }
 
 /* Second Row */
@@ -133,10 +107,73 @@ img {
   color: #fff;
 }
 .tv-show-logo-container {
-  margin-top: 190px;
+  margin-top: 190px; /* From main, similar to .tvshow-logo-wraper */
+}
+
+/* Third Row */
+.third-row .third-row-left {
+  background-image: url("../images/home/macbook-pro.jpg");
+  background-size: initial;
+  background-color: #fafafa;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+.third-row .third-row-right {
+  background-image: url("../images/home/new-ipad.jpg");
+}
+
+/* Fifth Section (from HEAD) */
+.fifth-wrapper .left-side-wrapper {
+  background-image: url(../images/home/apple-tv-background.jpg); /* From HEAD */
+  height: 600px; /* Consistent with .common-for-RandL */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.fifth-wrapper .right-side-wrapper {
+  background-image: url(../images/home/air-pods.jpg);
+  height: 600px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: initial;
+  background-color: black;
+  color: white;
+}
+.tvshow-logo-wraper {
+  padding-top: 240px; /* From HEAD, unique over .tv-show-logo-container */
+}
+.Watch-wrapper {
+  padding-top: 180px; /* From section5 and HEAD */
+}
+
+/* Zamzam Classes */
+.titlemac {
+  font-weight: bolder;
+  font-size: 60px;
+}
+.bestdescription {
+  font-size: 2em;
+}
+.iphone {
+  font-weight: 500;
+  font-size: 56px;
+}
+.just {
+  font-size: 23px;
+}
+.just1 {
+  font-size: 29px;
+}
+.servant {
+  padding: 119px 0 190px;
+}
+
+/* Main Classes */
+.product-description {
+  max-width: 330px; /* Kept once */
 }
 .watch-more-container {
-  padding: 180px 0 200px;
+  padding: 180px 0 200px; /* From main */
 }
 .watch-more-container a {
   color: rgb(151, 76, 221);
@@ -148,26 +185,11 @@ img {
   padding-left: 15px;
 }
 
-/* Third Row */
-/* Third Row Left */
-.third-row .third-row-left {
-  background-image: url("../images/home/macbook-pro.jpg");
-  background-size: initial;
-  background-color: #fafafa;
-  background-position: bottom;
-  background-repeat: no-repeat;
-}
-/* Third Row Right */
-.third-row .third-row-right {
-  background-image: url("../images/home/new-ipad.jpg");
-}
-
 /* Footer Styling */
 .footer-wrapper {
   background-color: #f5f5f7;
   color: #86868b;
   font-size: 0.7em;
-  margin-top: 50px; /* Added from iphone11 branch */
 }
 .footer-wrapper ul {
   list-style: none;
@@ -209,7 +231,6 @@ img {
 .footer-links-terms ul li:last-child {
   border-right: 0;
 }
-
 .footer-links-wrapper h3 {
   font-size: 12px;
   font-weight: 600;
@@ -246,19 +267,16 @@ img {
   }
 }
 @media (min-width: 768px) {
-  /* Nav Bar */
   .nav-item {
     text-align: center !important;
     padding: 0;
     border-bottom: 0px;
   }
-  /* Footer Styling */
   .my-apple-wrapper {
     border-bottom: 1px solid #d2d2d7;
   }
 }
 @media (min-width: 992px) {
-  /* Footer Styling */
   .copyright {
     margin-top: 10px;
   }
@@ -269,4 +287,3 @@ img {
     margin-top: 10px;
   }
 }
->>>>>>> 9dc187b13b016577ab1904a584fa28d7151fef05
