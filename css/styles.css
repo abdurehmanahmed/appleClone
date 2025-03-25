@@ -1,7 +1,7 @@
 /* General Styling */
 * {
   margin: 0;
-  padding: 0; /* From Zamzam */
+  padding: 0; /* From Zamzam via main */
 }
 
 body {
@@ -56,14 +56,13 @@ img {
 .bgimg7 {
   background-image: url(../images/home/macbook-pro.jpg);
 }
-
 .bgimg8 {
   background-image: url(../images/home/new-ipad.jpg);
 }
 
 /* Second Highlight Section */
 .highlight-second-section {
-  background-image: url("../images/home/iphone11-pro-bg.jpg"); /* From main */
+  background-image: url("../images/home/iphone11-pro-bg.jpg");
   height: 580px;
   background-color: hsl(0, 0%, 98%);
   background-position: bottom;
@@ -72,7 +71,7 @@ img {
 
 /* Third Highlight Section */
 .highlight-third-section {
-  background-image: url("../images/home/iphone11-bg.jpg"); /* From main */
+  background-image: url("../images/home/iphone11-bg.jpg");
   height: 580px;
   background-position: center;
   background-size: cover;
@@ -89,7 +88,7 @@ img {
 
 /* First Row */
 .first-row .first-row-left {
-  background-image: url("../images/home/watch-series-5.jpg"); /* From main */
+  background-image: url("../images/home/watch-series-5.jpg");
 }
 
 /* Second Row */
@@ -110,7 +109,7 @@ img {
   margin-top: 190px;
 }
 .watch-more-container {
-  padding: 180px 0 200px; /* From main, adjusted from Zamzam's .servant */
+  padding: 180px 0 200px; /* From main, preferred over Zamzam's .servant */
 }
 .watch-more-container a {
   color: rgb(151, 76, 221);
@@ -145,7 +144,7 @@ img {
   font-size: 2em;
 }
 .iphone {
-  font-weight: 500; /* Corrected from 500px, assuming intent was weight */
+  font-weight: 500; /* Corrected from 500px */
   font-size: 56px;
 }
 .just {
@@ -160,7 +159,7 @@ img {
 
 /* Main Classes */
 .product-description {
-  max-width: 330px;
+  max-width: 330px; /* Kept once, from both fozia and main */
 }
 
 /* Footer Styling */
@@ -209,7 +208,6 @@ img {
 .footer-links-terms ul li:last-child {
   border-right: 0;
 }
-
 .footer-links-wrapper h3 {
   font-size: 12px;
   font-weight: 600;
@@ -227,7 +225,7 @@ img {
   color: #515154;
 }
 
-/*Media Query*/
+/* Media Query */
 /* Footer */
 @media (max-width: 768px) {
   .footer-links-wrapper ul {
@@ -246,19 +244,19 @@ img {
   }
 }
 @media (min-width: 768px) {
-  /*Nav bar*/
+  /* Nav Bar */
   .nav-item {
     text-align: center !important;
     padding: 0;
     border-bottom: 0px;
   }
-  /*Footer styling*/
+  /* Footer Styling */
   .my-apple-wrapper {
     border-bottom: 1px solid #d2d2d7;
   }
 }
 @media (min-width: 992px) {
-  /*Footer styling*/
+  /* Footer Styling */
   .copyright {
     margin-top: 10px;
   }
