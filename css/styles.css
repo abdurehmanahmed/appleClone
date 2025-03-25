@@ -84,11 +84,12 @@ img {
   height: 600px;
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat; /* From section5 */
 }
 
 /* First Row */
 .first-row .first-row-left {
-  background-image: url("../images/home/watch-series-5.jpg");
+  background-image: url("../images/home/watch-series-5.jpg"); /* From 9dc187b1 */
 }
 
 /* Second Row */
@@ -106,23 +107,10 @@ img {
   color: #fff;
 }
 .tv-show-logo-container {
-  margin-top: 190px;
-}
-.watch-more-container {
-  padding: 180px 0 200px; /* From main, preferred over Zamzam's .servant */
-}
-.watch-more-container a {
-  color: rgb(151, 76, 221);
-}
-.watch-more-container a:after {
-  font-family: "FontAwesome";
-  font-weight: 900;
-  content: "\f144";
-  padding-left: 15px;
+  margin-top: 190px; /* From main, similar to .tvshow-logo-wraper */
 }
 
 /* Third Row */
-/* Third Row Left */
 .third-row .third-row-left {
   background-image: url("../images/home/macbook-pro.jpg");
   background-size: initial;
@@ -130,9 +118,32 @@ img {
   background-position: bottom;
   background-repeat: no-repeat;
 }
-/* Third Row Right */
 .third-row .third-row-right {
   background-image: url("../images/home/new-ipad.jpg");
+}
+
+/* Fifth Section (from HEAD) */
+.fifth-wrapper .left-side-wrapper {
+  background-image: url(../images/home/apple-tv-background.jpg); /* From HEAD */
+  height: 600px; /* Consistent with .common-for-RandL */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.fifth-wrapper .right-side-wrapper {
+  background-image: url(../images/home/air-pods.jpg);
+  height: 600px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: initial;
+  background-color: black;
+  color: white;
+}
+.tvshow-logo-wraper {
+  padding-top: 240px; /* From HEAD, unique over .tv-show-logo-container */
+}
+.Watch-wrapper {
+  padding-top: 180px; /* From section5 and HEAD */
 }
 
 /* Zamzam Classes */
@@ -144,7 +155,7 @@ img {
   font-size: 2em;
 }
 .iphone {
-  font-weight: 500; /* Corrected from 500px */
+  font-weight: 500;
   font-size: 56px;
 }
 .just {
@@ -159,7 +170,19 @@ img {
 
 /* Main Classes */
 .product-description {
-  max-width: 330px; /* Kept once, from both fozia and main */
+  max-width: 330px; /* Kept once */
+}
+.watch-more-container {
+  padding: 180px 0 200px; /* From main */
+}
+.watch-more-container a {
+  color: rgb(151, 76, 221);
+}
+.watch-more-container a:after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f144";
+  padding-left: 15px;
 }
 
 /* Footer Styling */
@@ -244,19 +267,16 @@ img {
   }
 }
 @media (min-width: 768px) {
-  /* Nav Bar */
   .nav-item {
     text-align: center !important;
     padding: 0;
     border-bottom: 0px;
   }
-  /* Footer Styling */
   .my-apple-wrapper {
     border-bottom: 1px solid #d2d2d7;
   }
 }
 @media (min-width: 992px) {
-  /* Footer Styling */
   .copyright {
     margin-top: 10px;
   }
