@@ -89,7 +89,10 @@ img {
 
 /* First Row */
 .first-row .first-row-left {
-  background-image: url("../images/home/watch-series-5.jpg"); /* From 9dc187b1 */
+  background-image: url("../images/home/watch-series-5.jpg");
+}
+.first-row .first-row-right {
+  background-image: url("../images/home/apple-card.jpg");
 }
 
 /* Second Row */
@@ -118,6 +121,7 @@ img {
   background-position: bottom;
   background-repeat: no-repeat;
 }
+/* third row right */
 .third-row .third-row-right {
   background-image: url("../images/home/new-ipad.jpg");
 }
